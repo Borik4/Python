@@ -4,3 +4,4 @@ def a(q):
     return 1
 for i in range(11):
     print(a(i), end=",    ")
+print('all')
