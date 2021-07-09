@@ -6,4 +6,3 @@ def a(q):
 
 for i in range(11):
     print(a(i), end=",    ")
-print('all')
