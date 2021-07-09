@@ -3,4 +3,4 @@ def a(q):
         return q + a(q - 1)
     return 1
 for i in range(11):
-    print(a(i))
+    print(a(i), end=",    ")
