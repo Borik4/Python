@@ -1,4 +1,6 @@
+from pacage import iop as asd
 import unittest
+
 
 class TestStringMethods(unittest.TestCase):
 
@@ -14,7 +16,7 @@ class TestStringMethods(unittest.TestCase):
       self.assertEqual(s.split(), ['hello', 'world'])
       # Проверим, что s.split не работает, если разделитель - не строка
       with self.assertRaises(TypeError):
-          s.split(2)
+          s.split(2, 7)
 
-if __name__ == 'grde':
+if __name__ == '__main__':
     unittest.main()
