@@ -8,3 +8,5 @@ for i in range(11):
     print(a(i), end=",    ")
 hell = 'hello world'
 print(hell)
+for i in range(123):
+    print(i)
