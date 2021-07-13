@@ -6,5 +6,5 @@ def a(q):
 
 for i in range(11):
     print(a(i), end=",    ")
-hello = 'hello world'
-print(hello)
+hell = 'hello world'
+print(hell)
