@@ -1,14 +1,14 @@
 from tabulate import tabulate
 
-sudoku_1 = [7, [], 3, 2, [], [], 5, [], [],
-          [], 9, [], 7, [], 5, [], 1, [],
-          1, [], 5, [], [], [], [], [], [],
-          3, 2, [], [], 5, 4, 8, 7, [],
-          8, [], [], 3, 7, [], [], [], [],
-          [], [], [], [], 2, 9, [], 6, [],
-          [], 3, [], [], 4, 7, [], 5, 8,
-          [], 7, 8, 5, 6, [], [], [], [],
-          9, 5, [], [], 3, [], [], [], 7]
+sudoku_1 = [[], [], [], 4, 6, [], [], 7, 1,
+            7, [], [], [], 1, 8, [], [], [],
+            [], [], 6, [], 7, [], [], [], [],
+            [], [], [], [], 4, [], 7, 3, [],
+            [], 8, [], [], [], [], 2, 4, [],
+            4, 2, [], [], [], 9, [], [], [],
+            [], 6, 8, [], 9, [], [], [], 4,
+            [], [], 5, 6, [], [], [], 1, [],
+            [], [], 2, 1, [], [], [], 5, []]
 for i in sudoku_1:
     if type(i) is list:
         for q in range(1, 10):
@@ -95,7 +95,7 @@ def uxxadzig_stuguum(l):
                 if w in o:
                     y += 1
             if y == 1:
-                for g in range(tox * 9 + 1, 82, 9):
+                for g in range(tox, 82, 9):
                     if sudoku[g] == list_1[i]:
                         sudoku[g] = w
 
@@ -166,6 +166,22 @@ horizon()
 uxxadzig()
 nshum()
 print(sudoku)
+uxxadzig()
+nshum()
+kubik()
+horizon()
+uxxadzig()
+nshum()
+kubik()
+horizon()
+uxxadzig()
+nshum()
+kubik()
+horizon()
+uxxadzig()
+nshum()
+print(sudoku)
+
 
 d = list(sudoku.values())
 d_1 = [[], [], [], [], [], [], [], [], [], ]
