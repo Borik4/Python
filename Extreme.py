@@ -95,7 +95,7 @@ def uxxadzig_stuguum(l):
                 if w in o:
                     y += 1
             if y == 1:
-                for g in range(tox, 82, 9):
+                for g in range(tox+1, 82, 9):
                     if sudoku[g] == list_1[i]:
                         sudoku[g] = w
 
@@ -168,20 +168,6 @@ nshum()
 print(sudoku)
 uxxadzig()
 nshum()
-kubik()
-horizon()
-uxxadzig()
-nshum()
-kubik()
-horizon()
-uxxadzig()
-nshum()
-kubik()
-horizon()
-uxxadzig()
-nshum()
-print(sudoku)
-
 
 d = list(sudoku.values())
 d_1 = [[], [], [], [], [], [], [], [], [], ]
